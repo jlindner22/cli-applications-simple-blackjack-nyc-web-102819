@@ -7,7 +7,7 @@ math.random
 end
 
 def display_card_total
-  # code #display_card_total here
+prints ""
 end
 
 def prompt_user
