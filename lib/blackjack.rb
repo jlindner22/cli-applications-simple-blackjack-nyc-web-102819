@@ -7,7 +7,7 @@ rand(1..1)
 end
 
 def display_card_total(card_total)
- print "Your total is #{card_total}."
+ puts "Your cards add up to #{card_total}."
 end
 
 def prompt_user
