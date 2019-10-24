@@ -15,11 +15,11 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+gets.chomp 
 end
 
 def end_game
-  # code #end_game here
+prints "Sorry, you lose. Card total: #{display_card_total}. Thank you for playing."
 end
 
 def initial_round
