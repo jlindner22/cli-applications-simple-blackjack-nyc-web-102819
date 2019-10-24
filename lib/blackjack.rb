@@ -19,7 +19,7 @@ gets.chomp
 end
 
 def end_game(card_total)
-prints "Sorry, you lose. Card total: #{card_total}. Thank you for playing."
+print "Sorry, you lose. Card total: #{card_total}. Thank you for playing."
 end
 
 def initial_round
