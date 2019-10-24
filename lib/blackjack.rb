@@ -29,7 +29,9 @@ round_one = deal_card + deal_card
 end
 
 def hit?
-  # code hit? here
+prompt_user
+get_user_input
+return display_card_total
 end
 
 def invalid_command
