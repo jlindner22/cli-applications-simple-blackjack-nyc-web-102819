@@ -7,7 +7,8 @@ rand(1..1)
 end
 
 def display_card_total
-prints "#{deal_card}"
+  card total = deal_card
+prints card total
 end
 
 def prompt_user
