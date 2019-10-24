@@ -28,9 +28,6 @@ round_one = deal_card + deal_card
   return round_one
 end
 
-def invalid_command
-puts "Please enter a valid command"
-end
 
 # def hit?(card_total)
 # prompt_user
@@ -57,6 +54,10 @@ def hit?(card_total)
     invalid_command + prompt_user
   end
 end	
+
+def invalid_command
+puts "Please enter a valid command"
+end
 
 #####################################################
 # get every test to pass before coding runner below #
