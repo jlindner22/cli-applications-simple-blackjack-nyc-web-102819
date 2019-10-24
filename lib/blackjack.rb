@@ -1,9 +1,9 @@
 def welcome
-puts "Welcome to the Black jack Table"
+puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-math.random < 12
+math.random 
 end
 
 def display_card_total
