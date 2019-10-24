@@ -28,32 +28,19 @@ round_one = deal_card + deal_card
   return round_one
 end
 
-
-# def hit?(card_total)
-# prompt_user
-# user_input = get_user_input
-#   if user_input == "h"
-#     card_total += deal_card
-#   elsif user_input == "s"
-#     card_total
-#   else
-#     invalid_command
-#     prompt_user
-#   end
-#   card_total
-# end
-
 def hit?(card_total)
-  prompt_user
-  answer = get_user_input
-  if answer == 'h'
+prompt_user
+user_input = get_user_input
+  if user_input == "h"
     card_total += deal_card
-  elsif answer == 's'
+  elsif user_input == "s"
     card_total
   else
-    invalid_command + prompt_user
+    invalid_command
+    prompt_user
   end
-end	
+  card_total
+end
 
 def invalid_command
 puts "Please enter a valid command"
