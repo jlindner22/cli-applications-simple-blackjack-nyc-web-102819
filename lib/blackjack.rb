@@ -41,6 +41,7 @@ user_input = get_user_input
     card_total
   else
     invalid_command
+    prompt_user
   end
   card_total
 end
