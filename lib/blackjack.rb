@@ -28,6 +28,10 @@ round_one = deal_card + deal_card
   return round_one
 end
 
+def invalid_command
+puts "Please enter a valid command"
+end
+
 def hit?(card_total)
 prompt_user
 user_input = get_user_input
@@ -36,14 +40,11 @@ user_input = get_user_input
   elsif user_input == "s"
     card_total
   else
-    prompt_user
+    invalid_command
   end
   card_total
 end
 
-def invalid_command
-puts "Please enter a valid command"
-end
 
 #####################################################
 # get every test to pass before coding runner below #
