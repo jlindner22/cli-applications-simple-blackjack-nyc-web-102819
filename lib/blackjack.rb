@@ -57,7 +57,6 @@ def hit?(card_total)
     invalid_command
   end
 end	
-end
 
 #####################################################
 # get every test to pass before coding runner below #
