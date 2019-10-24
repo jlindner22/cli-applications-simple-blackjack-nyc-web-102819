@@ -7,8 +7,8 @@ rand(1..1)
 end
 
 def display_card_total(card_total)
-  card total = deal_card
-print card total
+  "Your total is #{card_total}."
+print 
 end
 
 def prompt_user
