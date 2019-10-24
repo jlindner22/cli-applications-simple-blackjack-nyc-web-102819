@@ -8,7 +8,7 @@ end
 
 def display_card_total
   card total = deal_card
-prints card total
+print card total
 end
 
 def prompt_user
